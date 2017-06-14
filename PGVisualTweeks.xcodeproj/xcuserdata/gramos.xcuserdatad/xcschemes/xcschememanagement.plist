@@ -7,11 +7,26 @@
 		<key>PGVisualTweeks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E63B27B11EF0D7FB00022694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E63B27C91EF0D7FB00022694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E63B27D41EF0D7FB00022694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E6452E4F1EEF6FCC00AB15BE</key>
 		<dict>
 			<key>primary</key>

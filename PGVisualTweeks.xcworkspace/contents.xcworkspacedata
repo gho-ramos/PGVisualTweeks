@@ -8,6 +8,9 @@
       location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PGVisualTweeksDemo/PGVisualTweeksDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:PGVisualTweeks.xcodeproj">
    </FileRef>
 </Workspace>

@@ -10,6 +10,10 @@
 		E63B27A91EF0D2B700022694 /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B27A81EF0D2B700022694 /* SwiftSpec.swift */; };
 		E63B27AC1EF0D43300022694 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63B27AA1EF0D43300022694 /* Nimble.framework */; };
 		E63B27AD1EF0D43300022694 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63B27AB1EF0D43300022694 /* Quick.framework */; };
+		E63B282A1EF0D8E000022694 /* PGVTRoundedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E63B28281EF0D8E000022694 /* PGVTRoundedButton.h */; };
+		E63B282B1EF0D8E000022694 /* PGVTRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E63B28291EF0D8E000022694 /* PGVTRoundedButton.m */; };
+		E63B282F1EF0F10300022694 /* PGVTRoundedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E63B282D1EF0F10300022694 /* PGVTRoundedLabel.h */; };
+		E63B28301EF0F10300022694 /* PGVTRoundedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E63B282E1EF0F10300022694 /* PGVTRoundedLabel.m */; };
 		E6452E5A1EEF6FCC00AB15BE /* PGVisualTweeks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6452E501EEF6FCC00AB15BE /* PGVisualTweeks.framework */; };
 		E6452E5F1EEF6FCC00AB15BE /* PGVisualTweeksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6452E5E1EEF6FCC00AB15BE /* PGVisualTweeksTests.m */; };
 		E6452E611EEF6FCC00AB15BE /* PGVisualTweeks.h in Headers */ = {isa = PBXBuildFile; fileRef = E6452E531EEF6FCC00AB15BE /* PGVisualTweeks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +34,10 @@
 		E63B27A81EF0D2B700022694 /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
 		E63B27AA1EF0D43300022694 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/PGVisualTweeks-cyfpghevurdquyddngpjzjsigrro/Build/Products/Debug-iphonesimulator/Nimble.framework"; sourceTree = "<group>"; };
 		E63B27AB1EF0D43300022694 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/PGVisualTweeks-cyfpghevurdquyddngpjzjsigrro/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
+		E63B28281EF0D8E000022694 /* PGVTRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGVTRoundedButton.h; sourceTree = "<group>"; };
+		E63B28291EF0D8E000022694 /* PGVTRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGVTRoundedButton.m; sourceTree = "<group>"; };
+		E63B282D1EF0F10300022694 /* PGVTRoundedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGVTRoundedLabel.h; sourceTree = "<group>"; };
+		E63B282E1EF0F10300022694 /* PGVTRoundedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGVTRoundedLabel.m; sourceTree = "<group>"; };
 		E6452E501EEF6FCC00AB15BE /* PGVisualTweeks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGVisualTweeks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6452E531EEF6FCC00AB15BE /* PGVisualTweeks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGVisualTweeks.h; sourceTree = "<group>"; };
 		E6452E541EEF6FCC00AB15BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,13 +67,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E63B28271EF0D86C00022694 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E63B28281EF0D8E000022694 /* PGVTRoundedButton.h */,
+				E63B28291EF0D8E000022694 /* PGVTRoundedButton.m */,
+			);
+			name = Buttons;
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E63B282C1EF0E7E800022694 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				E63B282D1EF0F10300022694 /* PGVTRoundedLabel.h */,
+				E63B282E1EF0F10300022694 /* PGVTRoundedLabel.m */,
+			);
+			name = Labels;
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		E6452E461EEF6FCC00AB15BE = {
 			isa = PBXGroup;
 			children = (
+				E6452E911EEF92D500AB15BE /* Frameworks */,
 				E6452E521EEF6FCC00AB15BE /* PGVisualTweeks */,
 				E6452E5D1EEF6FCC00AB15BE /* PGVisualTweeksTests */,
 				E6452E511EEF6FCC00AB15BE /* Products */,
-				E6452E911EEF92D500AB15BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +109,10 @@
 		E6452E521EEF6FCC00AB15BE /* PGVisualTweeks */ = {
 			isa = PBXGroup;
 			children = (
-				E6452E531EEF6FCC00AB15BE /* PGVisualTweeks.h */,
+				E63B28271EF0D86C00022694 /* Buttons */,
+				E63B282C1EF0E7E800022694 /* Labels */,
 				E6452E541EEF6FCC00AB15BE /* Info.plist */,
+				E6452E531EEF6FCC00AB15BE /* PGVisualTweeks.h */,
 			);
 			path = PGVisualTweeks;
 			sourceTree = "<group>";
@@ -90,10 +120,10 @@
 		E6452E5D1EEF6FCC00AB15BE /* PGVisualTweeksTests */ = {
 			isa = PBXGroup;
 			children = (
-				E6452E5E1EEF6FCC00AB15BE /* PGVisualTweeksTests.m */,
 				E6452E601EEF6FCC00AB15BE /* Info.plist */,
-				E63B27A81EF0D2B700022694 /* SwiftSpec.swift */,
 				E63B27A71EF0D2B600022694 /* PGVisualTweeksTests-Bridging-Header.h */,
+				E6452E5E1EEF6FCC00AB15BE /* PGVisualTweeksTests.m */,
+				E63B27A81EF0D2B700022694 /* SwiftSpec.swift */,
 			);
 			path = PGVisualTweeksTests;
 			sourceTree = "<group>";
@@ -114,7 +144,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63B282A1EF0D8E000022694 /* PGVTRoundedButton.h in Headers */,
 				E6452E611EEF6FCC00AB15BE /* PGVisualTweeks.h in Headers */,
+				E63B282F1EF0F10300022694 /* PGVTRoundedLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +217,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E6452E461EEF6FCC00AB15BE;
 			productRefGroup = E6452E511EEF6FCC00AB15BE /* Products */;
@@ -219,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63B282B1EF0D8E000022694 /* PGVTRoundedButton.m in Sources */,
+				E63B28301EF0F10300022694 /* PGVTRoundedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -328,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
